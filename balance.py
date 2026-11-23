@@ -142,7 +142,7 @@ class BankApp:
             font=("Arial", 11),
             fg=BG,
             bg=GREEN
-        ).pack(anchor="w")
+        ).pack(anchor="w")https://github.com/mohammedlukmancm-dotcom/lukman_project.git
 
         self.balance_label = tk.Label(
             balance_card,
@@ -265,7 +265,7 @@ class BankApp:
             f"₹ {amount:,.2f} withdrawn successfully!"
         )
 
-    # -------------------- AMOUNT INPUT --------------------
+    # -------------------- AMOUNT INPUT -----------------https://github.com/mohammedlukmancm-dotcom/lukman_project.git---
     def ask_amount(self, title):
         dialog = tk.Toplevel(self.root)
         dialog.title(title)
@@ -336,4 +336,4 @@ class BankApp:
 root = tk.Tk()
 app = BankApp(root)
 root.mainloop()
-print("cristiano ronaldo suiiiiiii")
+print("messi is far far better than ronaldo")
